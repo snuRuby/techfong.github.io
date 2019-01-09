@@ -1,32 +1,33 @@
 # Site settings
-email: 
-baseurl: ""
+## Change the values as needed.
+title: Bitwiser-Material
+email: brijeshb42@gmail.com
+description: "A jekyll theme implementing material design by using muicss."
+keywords: "jekyll, theme, material, muicss"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
 paginate: 5
-paginate_path: "/blog/page-:num"
-google_analytics: 
-
-# SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
-
-# Profile settings
-name: 
-profile_img: 
-profile: 
-social:
-  github: 
-
+paginate_path: "page:num"
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-
-# Sass
+highlighter: pygments
 sass:
-  style: compressed
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: brijeshb42
+  twitter: brijeshb42
+  email: brijeshb42@gmail.com
+  github: brijeshb42/bitwiser-material/
+exclude:
+  - bower_components
+  - README.md
+full_name: Brijesh
 
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+##set this to enable disqus commenting
+disqus: bitwiser
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
