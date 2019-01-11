@@ -1,32 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-email: 
-baseurl: ""
-paginate: 5
-paginate_path: "/blog/page-:num"
-google_analytics: 
-
-# SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
-
-# Profile settings
-name: 
-profile_img: 
-profile: 
-social:
-  github: 
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 스마트스터디<br>기술 블로그
+email: totoro@smartstudy.co.kr
+description: <br><p>스마트스터디 개발자들의 기술 블로그 입니다.</p>개발 중 사색 등 여러 가지 이야기를 씁니다.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://techfong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mae
+github_username:  totoroSS
+author: smartstudy
 
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+remote_theme: jekyll-theme-clean-blog
 
-# Sass
-sass:
-  style: compressed
 
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+paginate:          10
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
