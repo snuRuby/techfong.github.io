@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    jekyll-theme-clean-blog (4.0.1)
+      jekyll (~> 3.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,8 +38,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-theme-clean-blog (4.0.1)
-      jekyll (~> 3.6)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -46,6 +50,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+    rake (10.4.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -62,10 +67,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.0)
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
   jekyll-paginate
-  jekyll-theme-clean-blog
+  jekyll-theme-clean-blog!
+  rake (~> 10.0)
   tzinfo-data
 
 BUNDLED WITH
