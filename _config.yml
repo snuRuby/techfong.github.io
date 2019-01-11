@@ -24,7 +24,7 @@ author: smartstudy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-clean-blog
+remote_theme: jekyll-theme-clean-blog
 
 
 paginate:          10
