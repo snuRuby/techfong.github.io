@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "알렉사 스킬을 만들면서 느낀 점"
+title:  "알렉사 스킬 개발 경험기"
 date:   2019-01-10 14:55:00 +0900
 category: "개발 경험"
 author: Totoro
