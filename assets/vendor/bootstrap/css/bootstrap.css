@@ -557,12 +557,14 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    word-wrap: break-word;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+    word-wrap: break-word;
   }
 }
 
@@ -575,6 +577,7 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+    word-wrap: break-word;
   }
 }
 
@@ -8946,6 +8949,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .container {
     min-width: 992px !important;
+    word-break: keep-all;
   }
   .navbar {
     display: none;
