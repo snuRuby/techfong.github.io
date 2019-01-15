@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: SMARTSTUDY Tech Blog
 email: techfong@smartstudy.co.kr
-description: <p>스마트스터디 개발자들의 기술 블로그 입니다.</p>개발 중 사색 등 여러 가지 이야기를 씁니다.
+description: 개발 중 사색 등 여러 가지 이야기를 씁니다.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://techfong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tech.pinkfong.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mae
 github_username:  techfong
 author: SMARTSTUDY
@@ -25,6 +25,9 @@ author: SMARTSTUDY
 # Build settings
 markdown: kramdown
 remote_theme: jekyll-theme-clean-blog
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "https://smartstudy.io"
 
 
 category_dir: category/
