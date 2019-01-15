@@ -5,7 +5,7 @@ date:   2019-01-15 14:00:00 +0900
 category: "개발 경험"
 author: Totoro
 published: True
-background: "https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/alexa.jpg"
+background: "https://smartstudy.io/blog/alexa.jpg"
 ---
 
 인턴을 한지 4개월차. 알렉사 스킬
@@ -18,7 +18,7 @@ background: "https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/alexa.jp
 
 ---
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2019-01-11+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+3.50.17.png" width="100%" />  
+<img src="https://smartstudy.io/blog/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2019-01-11+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+3.50.17.png" width="100%" />  
 
 게임의 로직은 위와 같았다. 질문을 하고 답을 하면 가지를 쳐서 계속 질문하고 결국 정답을 맞추고 노래를 틀어주는 퀴즈의 로직이다. 이 로직 사이에 사용자가 질문을 하거나 도움을 요청하면 인텐트로 받아서 반응한 뒤 질문으로 돌아가야 했다.
 
@@ -33,15 +33,15 @@ ffmpeg -y -i input.mp3 -ar 44100 -ab 48k -codec:a mpeg2 -ac 1 output.mp3
 {% endhighlight %} 
 ---
 변경 전 mp3
-<audio src="https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/S014-2.wav" controls preload></audio>
+<audio src="https://smartstudy.io/blog/S014-2.wav" controls preload></audio>
 변경 후 mp3
-<audio src="https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/S14_2.mp3" controls preload></audio>
+<audio src="https://smartstudy.io/blog/S14_2.mp3" controls preload></audio>
 
 변경 후 알렉사로 한 번 틀어봤는데, 알렉사 스피커가 그렇게 좋지 않아서인지 큰 차이가 나지 않았다. 안심하며 전체 게임에 음원을 붙이기 시작했다. ssml으로 음원을 쓸 때는 2 가지를 염두에 두어야 한다. 1) 연속 재생이 총 4분이 안 넘게 하는 것과 2) 연속 재생되는 곡의 수가 5개 이하여야 하는 것이다. 음원이 5개 이상되는 경우가 있었는데, 답변에 대한 반응 + 레벨업 + 새로운 공룡 출현 + 공룡 노래 + 노래 이후 담화 + 다시 플레이할 건지 의사 질문 같은 경우였다. 중간 세부 로직을 변경하고 음원을 합쳐 5개 제한에 걸리지 않도록 변경하였고, 최대로 긴 음원의 경우도 4분은 넘지 않았기에 4분 제한은 신경쓸 필요는 없었다.(구글 어시스턴트는 2분. but 그럴 경우 미디어 플레이어로 진행 가능)
 
 아마존 알렉사 certification은 신청하면 최소 3일은 걸린다. 모든 intent를 검사해보고, 아이들 컨텐츠에 문제가 없는지 확인 하고, 경우의 수 만큼 검사하는 것 같다. 최대 2주까지 걸려본 것 같다.. 몇 번의 certification을 거친 뒤 통과했고, 현재 live 상태이다. 추후에 유료화를 거칠 예정이라 모든 사용자에게 보이지는 않고, 유료버전 직전 티어 사용자에게만 보이는 듯 하다. 밑의 사진은 live 상태에 있었던 게임이 한달 동안 어떻게 세션이 열려졌는지 보여주는 차트이다. 
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/Total+Utterances+-+2019-01-14+041212.png" width="100%" />
+<img src="https://smartstudy.io/blog/Total+Utterances+-+2019-01-14+041212.png" width="100%" />
 모든 사용자에게 오픈되지 않았음에도 꾸준한 성적을 내고 있음을 볼 수 있다. 유료화가 진행된다면 좀 더 좋은 성적을 낼 수 있지 않을까 기대해본다.
 
 토토로 작성.
