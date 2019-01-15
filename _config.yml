@@ -27,6 +27,7 @@ markdown: kramdown
 remote_theme: jekyll-theme-clean-blog
 
 
+category_dir: category/
 paginate:          10
 paginate_path:     "/posts/page:num/"
 plugins:
