@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-15T14:30:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SMARTSTUDY Tech Blog</title><subtitle>&lt;p&gt;스마트스터디 개발자들의 기술 블로그 입니다.&lt;/p&gt;개발 중 사색 등 여러 가지 이야기를 씁니다.</subtitle><author><name>SMARTSTUDY</name></author><entry><title type="html">알렉사 스킬 개발 경험기</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/10/totoro-alexa.html" rel="alternate" type="text/html" title="알렉사 스킬 개발 경험기" /><published>2019-01-10T14:55:00+09:00</published><updated>2019-01-10T14:55:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/10/totoro-alexa</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/10/totoro-alexa.html">&lt;p&gt;인턴을 한지 4개월차. 알렉사 스킬&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-15T14:49:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SMARTSTUDY Tech Blog</title><subtitle>&lt;p&gt;스마트스터디 개발자들의 기술 블로그 입니다.&lt;/p&gt;개발 중 사색 등 여러 가지 이야기를 씁니다.</subtitle><author><name>SMARTSTUDY</name></author><entry><title type="html">알렉사 스킬 개발 경험기</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/15/totoro-alexa.html" rel="alternate" type="text/html" title="알렉사 스킬 개발 경험기" /><published>2019-01-15T14:00:00+09:00</published><updated>2019-01-15T14:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/15/totoro-alexa</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C%20%EA%B2%BD%ED%97%98/2019/01/15/totoro-alexa.html">&lt;p&gt;인턴을 한지 4개월차. 알렉사 스킬&lt;/p&gt;
 
 &lt;h3 id=&quot;dino-buddy-lab&quot;&gt;Dino Buddy Lab&lt;/h3&gt;
 &lt;p&gt;인턴 1개월이 채 되지 않았을 무렵 알렉사 스킬 dino buddy lab에 대한 업무를 받았다. 유아용 AI게임을 만드는 것이었다. 이미 앞의 개발자 분께서 코드 뼈대를 짜놓은 상태였고, 음원과 함께 게임 진행과 추가적인 intent작업을 해야 했다.&lt;/p&gt;
@@ -34,35 +34,4 @@
 &lt;p&gt;&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/Total+Utterances+-+2019-01-14+041212.png&quot; width=&quot;100%&quot; /&gt;
 모든 사용자에게 오픈되지 않았음에도 꾸준한 성적을 내고 있음을 볼 수 있다. 유료화가 진행된다면 좀 더 좋은 성적을 낼 수 있지 않을까 기대해본다.&lt;/p&gt;
 
-&lt;p&gt;토토로 작성.&lt;/p&gt;</content><author><name>Totoro</name></author><category term="개발 경험" /><summary type="html">인턴을 한지 4개월차. 알렉사 스킬</summary></entry><entry><title type="html">Dinosaurs are extinct today</title><link href="http://localhost:4000/2017/10/27/dinosaurs.html" rel="alternate" type="text/html" title="Dinosaurs are extinct today" /><published>2017-10-27T12:45:13+09:00</published><updated>2017-10-27T12:45:13+09:00</updated><id>http://localhost:4000/2017/10/27/dinosaurs</id><content type="html" xml:base="http://localhost:4000/2017/10/27/dinosaurs.html">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote class=&quot;blockquote&quot;&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;</content><author><name>SMARTSTUDY</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry></feed>
+&lt;p&gt;토토로 작성.&lt;/p&gt;</content><author><name>Totoro</name></author><category term="개발 경험" /><summary type="html">인턴을 한지 4개월차. 알렉사 스킬</summary></entry></feed>
