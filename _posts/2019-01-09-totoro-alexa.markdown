@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "알렉사 스킬을 만들면서 느낀 점"
-date:   2019-01-10 14:55:00 +0900
+title:  "알렉사 스킬 개발 경험기"
+date:   2019-01-15 14:00:00 +0900
 category: "개발 경험"
 author: Totoro
 published: True
+background: "https://s3-ap-northeast-1.amazonaws.com/smartstudy.io/blog/alexa.jpg"
 ---
 
 인턴을 한지 4개월차. 알렉사 스킬

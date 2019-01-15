@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    About Me - 스마트스터디 기술 블로그
+    Categories - SMARTSTUDY Tech Blog
     
   </title>
 
@@ -22,8 +22,10 @@
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/about.html">
-  <link rel="alternate" type="application/rss+xml" title="스마트스터디 기술 블로그" href="/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/category/">
+  <link rel="alternate" type="application/rss+xml" title="SMARTSTUDY Tech Blog" href="/feed.xml">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.0/axios.min.js"></script>
 
 </head>
 
@@ -44,9 +46,6 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/posts">Posts</a>
         </li>
         <li class="nav-item">
@@ -60,16 +59,14 @@
 
     <!-- Page Header -->
 
-<header class="masthead" style="background-image: url('/img/bg-about.jpg')">
+<header class="masthead" style="background-image: url('/img/bg-post.jpg')">
 
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="page-heading">
-          <h1>About Me</h1>
-          
-            <span class="subheading">This is what I do.</span>
+          <h1>Categories</h1>
           
         </div>
       </div>
@@ -81,12 +78,42 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
+      
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
 
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
 
+<div id="post-list">
+  <h2 id="">{{ hash }}</h2>
+  <ul>
+    <li v-for="p in posts" v-if="p.categories.indexOf(hash) != -1">
+      <time>
+        {{ p.date }}
+      </time>
+      <a v-bind:href="p.url">{{ p.title }}</a>
+    </li>
+  </ul>
+</div>
+
+<script>
+  var hash = decodeURI(window.location.hash.substr(1));
+
+  var postList = new Vue({
+    el: '#post-list',
+    data: {
+      posts: []
+    }
+  });
+
+  axios.get('/posts.json')
+  .then(function (response) {
+    postList.posts = response.data.posts;
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+</script>
+      
+      
 
     </div>
   </div>
@@ -115,7 +142,7 @@
           
           
           <li class="list-inline-item">
-            <a href="https://github.com/totoroSS">
+            <a href="https://github.com/techfong">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -124,7 +151,7 @@
           </li>
           
         </ul>
-        <p class="copyright text-muted">Copyright &copy; smartstudy 2019</p>
+        <p class="copyright text-muted">Copyright &copy; SMARTSTUDY 2019</p>
       </div>
     </div>
   </div>
