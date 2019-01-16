@@ -5,8 +5,7 @@ date:   2019-01-15 14:00:00 +0900
 category: "개발 경험"
 author: Totoro
 published: True
-image:
-  background: "https://smartstudy.io/blog/alexa.jpg"
+image: "alexa.jpg"
 ---
 
 인턴을 한지 4개월차. 알렉사 스킬
